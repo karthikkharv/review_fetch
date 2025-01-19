@@ -1,0 +1,97 @@
+/* General Styling */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-fetch {
+  background-color: #4caf50; /* Green for active state */
+  color: white;
+}
+
+.button-stop {
+  background-color: #f44336; /* Red for stop button */
+  color: white;
+}
+
+.button-disabled {
+  background-color: #ccc; /* Gray when disabled */
+  color: #999;
+  cursor: not-allowed;
+}
+
+.product-container {
+  margin-top: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.reviews-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.review {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.review h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.review p {
+  color: #555;
+}
+
+/* Button hover effects */
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button-fetch:hover {
+  background-color: #45a049;
+}
+
+.button-stop:hover {
+  background-color: #d32f2f;
+}
+
+.button:active {
+  transform: scale(1);
+}
