@@ -15,7 +15,7 @@ app.add_middleware(
 )
 import google.generativeai as genai
 import json
-genai.configure(api_key='AIzaSyB3-kv7Hzn0ky3h62pe_b6gS3bnANTOzW8')
+genai.configure(api_key='USE-API-KEY-HERE')
 model = genai.GenerativeModel('gemini-pro')
 
 # @app.get("/data")
